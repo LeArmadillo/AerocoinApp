@@ -1,0 +1,11 @@
+<ion-view view-title="Browse">
+  <ion-content ng-controller="BrowseCtrl">
+      <!--<label class="item item-input">
+          <span class="input-label">Number</span>
+          <input type="number" ng-model="addBalance()">
+      </label>-->
+      <ion-list>
+      <ion-item ng-model="bal = theBalance('Euro')">€{{bal/100}}</ion-item>
+      </ion-list>
+  </ion-content>
+</ion-view>
